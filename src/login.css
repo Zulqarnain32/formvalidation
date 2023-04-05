@@ -1,0 +1,51 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 215, 36); 
+}
+.logincontainer{
+    background-color: rgb(47, 46, 48);
+    box-sizing: border-box;
+    width: 320px;
+    padding:10px 30px;
+    box-shadow: 10px 10px 20px rgb(236, 165, 11);
+    padding-bottom: 30px;
+}
+h2{
+    text-align: center;
+    color: rgb(255, 215, 36);
+    font-size: 30px;
+}
+p{
+    color: #fff;
+}
+input{
+    width: 240px;
+    background-color: rgb(93, 90, 95);
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 3px 10px;
+    height: 35px;
+    font-size: 16px;
+}
+button{
+    width: 100%;
+    background-color: rgb(255, 215, 36);
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 3px 10px;
+    height: 37px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    margin-bottom: -5px;
+}
